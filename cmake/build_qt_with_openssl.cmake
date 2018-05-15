@@ -158,7 +158,6 @@ function(_extract_archive filename directory)
 endfunction()
 
 # Extract packages.
-_extract_archive(${QT_FILE} ${QT_BUILD_DIR})
 _extract_archive(${OPENSSL_FILE} ${OPENSSL_INSTALL_DIR})
 
 # Options common to configure and build steps
